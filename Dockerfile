@@ -1,4 +1,4 @@
-FROM buildpack-deps:xenial
+FROM buildpack-deps:focal
 
 # skip installing gem documentation
 RUN mkdir -p /usr/local/etc \
